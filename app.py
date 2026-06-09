@@ -296,7 +296,8 @@ if stock_symbol:
         stock_data = fetch_stock_data(stock_symbol)
         
         if "error" in stock_data:
-            st.error(f"Could not find stock: {stock_data['error']}")
+
+            st.error(f"Yahoo Finance is temporarily rate limiting requests. Please try again in a few minutes.")
             st.info("💡 Try symbols like: RELIANCE, TCS, INFY, HDFCBANK, AAPL, MSFT")
         else:
             # Display stock info
