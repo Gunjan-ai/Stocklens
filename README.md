@@ -19,8 +19,11 @@ Streamlit + OpenAI + yfinance
 Python · Streamlit · OpenAI API · yfinance · Pandas · Plotly
 
 ## 📸 Screenshots
-https://github.com/Gunjan-ai/Stocklens/blob/main/screenshots/Dashboard.jpeg
-https://github.com/Gunjan-ai/Stocklens/blob/main/screenshots/insights.jpeg
+**Dashboard View**
+![Dashboard](https://raw.githubusercontent.com/Gunjan-ai/Stocklens/main/screenshots/Dashboard.jpeg)
+
+**AI Insights View**
+![AI Insights](https://raw.githubusercontent.com/Gunjan-ai/Stocklens/main/screenshots/insights.jpeg)
 
 ## ⚙️ Setup
 pip install -r requirements.txt
